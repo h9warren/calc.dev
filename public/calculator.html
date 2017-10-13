@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>calculcorn</title>
+    <link rel="stylesheet" type="text/css" href="/css/calculator_v1.1.css">
+    <link href="https://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
+    <style type='text/css'>
+      @font-face {
+      font-family: "SFDigitalReadout";
+      src: url("/fonts/SFDigitalReadout-MediumObli.ttf")
+      }
+      .field {
+        font-family: SFDigitalReadout;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="color">
+    <main>
+      <form name="calculator" action=>
+        <div class="glare">
+        <input type="text" name="left" id="left" placeholder="" value="" class="field operand"></input>
+        <!-- <input type="text" name="operator" id="operator" value="" class="field"></input>
+        <input type="text" name="right" id="right" placeholder="" value="" class="field operand"></input> -->
+      </div>
+        <div id="button-box">
+          <div class="buttons">
+          <div class="button-bg">
+          <input type="button" name="1" id ="one" value="1" class="button number"></input></div>
+          <div class="button-bg">
+            <input type="button" name="2" id ="two" value="2" class="button number"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="3" id ="three" value="3" class="button number"></input>
+          </div>
+          <div class="operator-bg">
+            <input type="button" name="+" id ="plus" value="+" class="button operator"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="4" id ="four" value="4" class="button number"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="5" id ="five" value="5" class="button number"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="6" id ="six" value="6" class="button number"></input>
+          </div>
+          <div class="operator-bg">
+            <input type="button" name="-" id ="minus" value="-" class="button operator"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="7" id ="seven" value="7" class="button number"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="8" id ="eight" value="8" class="button number"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="9" id ="nine" value="9" class="button number"></input>
+          </div>
+          <div class="operator-bg">
+            <input type="button" name="*" id = "product" value="*" class="button operator"></input>
+          </div>
+          <div class="button-bg">
+            <input type="button" name="0" id ="zero" value="0" class="button number"></input>
+          </div>
+          <div class="cButton-bg">
+            <input type="button" name="c" id ="clear" value="C" class="cButton"></input>
+          </div>
+          <div class="operator-bg">
+            <input type="button" name="=" id ="equals" value="=" class="equals"></input>
+          </div>
+          <div class="operator-bg">
+            <input type="button" name="/" id ="divide" value="÷" class="operator"></input>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    </main>
+  </div>
+  <script type="text/javascript" src="/js/calculator_v1.2.js">
+
+  </script>
+  </body>
+</html>
