@@ -218,6 +218,7 @@ function calculate() {
 
       }
       calculator.left.value = numberOne;
+      enteringNum = [];
       console.log(numberOne);
     }
 
